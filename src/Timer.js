@@ -8,6 +8,14 @@ class Timer extends Component {
 
   // add your code here
 
+  componentDidMount(){
+
+  }
+  
+  componentWillUnmount(){
+    
+  }
+
   render() {
     const { time, color } = this.state;
     return (
